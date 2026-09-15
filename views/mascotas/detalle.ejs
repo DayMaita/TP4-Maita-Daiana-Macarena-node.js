@@ -1,0 +1,31 @@
+<article class="detalle">
+  <a class="volver" href="/mascotas">← Volver al catálogo</a>
+
+  <div class="detalle-grid">
+    <div>
+      <img class="detalle-imagen" src="<%= mascota.imagen %>" alt="Ilustración de <%= mascota.nombre %>">
+    </div>
+
+    <div class="detalle-contenido">
+      <span class="estado"><%= mascota.estado %></span>
+      <h1><%= mascota.nombre %></h1>
+      <dl>
+        <div>
+          <dt>Especie</dt>
+          <dd><%= mascota.especie %></dd>
+        </div>
+        <div>
+          <dt>Edad</dt>
+          <dd><%= mascota.edad %> años</dd>
+        </div>
+        <div>
+          <dt>ID</dt>
+          <dd><%= mascota.id %></dd>
+        </div>
+      </dl>
+      <h2>Descripción</h2>
+      <p><%= mascota.descripcion %></p>
+      <a class="boton" href="/mascotas">Ver todas las mascotas</a>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,1 @@
+console.log("Trabajo práctico 04: aplicación de mascotas cargada correctamente.");

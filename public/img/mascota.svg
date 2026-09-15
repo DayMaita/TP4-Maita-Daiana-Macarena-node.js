@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="titulo">
+  <title id="titulo">Ilustración de una mascota</title>
+  <rect width="600" height="400" rx="35" fill="#e7f3ee"/>
+  <circle cx="300" cy="205" r="105" fill="#d59b63"/>
+  <path d="M215 145 L155 95 L165 220 Z" fill="#b77b4a"/>
+  <path d="M385 145 L445 95 L435 220 Z" fill="#b77b4a"/>
+  <circle cx="265" cy="195" r="13" fill="#263238"/>
+  <circle cx="335" cy="195" r="13" fill="#263238"/>
+  <ellipse cx="300" cy="245" rx="48" ry="35" fill="#f5d3aa"/>
+  <circle cx="300" cy="235" r="10" fill="#263238"/>
+  <path d="M300 245 Q275 275 250 255 M300 245 Q325 275 350 255" fill="none" stroke="#263238" stroke-width="6" stroke-linecap="round"/>
+  <path d="M130 320 Q300 350 470 320" fill="none" stroke="#39745e" stroke-width="12" stroke-linecap="round"/>
+</svg>

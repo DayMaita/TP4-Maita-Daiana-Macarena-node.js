@@ -1,0 +1,16 @@
+{
+  "name": "tp-04-mascotas-ejs",
+  "version": "1.0.0",
+  "description": "Trabajo práctico 04 - Aplicación web con EJS",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/archivos.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
